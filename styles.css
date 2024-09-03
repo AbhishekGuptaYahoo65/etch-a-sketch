@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px; /* Total width of the grid */
+    height: 960px; /* Total height of the grid */
+    border: 2px solid #000; /* Optional border for the container */
+}
+
+.grid-item {
+    background-color: lightgreen; /* Default light green color */
+    border: 1px solid lightgray;
+    box-sizing: border-box; /* Include border in the size */
+    transition: background-color 0.3s; /* Smooth color change */
+}
+
+.grid-item:hover {
+    background-color: darkgreen; /* Dark green color on hover */
+}
+
+button {
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
